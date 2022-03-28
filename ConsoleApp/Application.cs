@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Hosting;
 
-namespace GitHubClient;
+namespace ConsoleApp;
 
 public class Application : IHostedService
 {
