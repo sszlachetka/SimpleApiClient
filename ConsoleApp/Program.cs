@@ -23,6 +23,8 @@ using var host = Host.CreateDefaultBuilder(args)
     })
     .Build();
 
+await host.RunAsync();
+
 static IAsyncPolicy<HttpResponseMessage> GetRetryPolicy()
 {
     return HttpPolicyExtensions
@@ -36,5 +38,3 @@ static IAsyncPolicy<HttpResponseMessage> GetCircuitBreakerPolicy()
         .HandleTransientHttpError()
         .CircuitBreakerAsync(5, TimeSpan.FromSeconds(30));
 }
-
-await host.RunAsync();
