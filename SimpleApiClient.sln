@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHubClient", "GitHubClient\GitHubClient.csproj", "{C3F1C6CF-B960-49A6-AC43-7100E8695890}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleClient", "ConsoleClient\ConsoleClient.csproj", "{C3F1C6CF-B960-49A6-AC43-7100E8695890}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
